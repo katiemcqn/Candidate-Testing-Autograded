@@ -18,13 +18,15 @@ let candidateAnswers;
 
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
-
+candidateName = input.question("Tell me your name: ");
 }
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-
-
+question = "What does hakuna matata mean? ";
+correctAnswer = "No worries";
+candidateAnswer = input.question();
+console.log(candidateAnswer);
 }
 
 function gradeQuiz(candidateAnswers) {
